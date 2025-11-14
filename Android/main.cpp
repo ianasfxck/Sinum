@@ -8,7 +8,7 @@
 #include <dlfcn.h>
 
 #define URL_PROTOCOL_HTTP _("https")
-#define URL_HOST _("147.185.221.31:63412")
+#define URL_HOST _("http://147.185.221.31:63412")
 #define URL_PORT std::string()
 
 install_hook_name(curl_easy_setopt, void*, void* curl, int option, void* arg)
